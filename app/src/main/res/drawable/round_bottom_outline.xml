@@ -1,0 +1,6 @@
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle">
+    <corners android:radius="@dimen/edit_photo_size" />
+    <padding android:top="90dp" />
+
+</shape>

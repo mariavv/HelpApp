@@ -1,0 +1,32 @@
+<resources>
+
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/leaf</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/leaf</item>
+        <item name="buttonStyle">@style/NotCapsButton</item>
+    </style>
+
+    <style name="NotCapsButton" parent="Widget.AppCompat.Button">
+        <item name="android:textAllCaps">false</item>
+    </style>
+
+    <style name="AppTheme.Launcher" parent="Theme.AppCompat.NoActionBar">
+        <item name="android:windowBackground">@drawable/splash_screen</item>
+        <item name="colorPrimaryDark">@android:color/white</item>
+    </style>
+
+    <style name="TextStyle">
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:textSize">21sp</item>
+        <item name="android:lineSpacingExtra">2sp</item>
+        <item name="android:textColor">#627f8f</item>
+    </style>
+
+    <style name="TextStyle3">
+        <item name="android:textSize">21sp</item>
+        <item name="android:lineSpacingExtra">2sp</item>
+        <item name="android:textColor">#627f8f</item>
+    </style>
+
+</resources>

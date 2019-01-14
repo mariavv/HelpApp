@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="categories_fragment_label">Категории</string>
+    <string name="category_image">Картинка категории</string>
+    <string name="categories_head_text">Выберите категорию помощи</string>
+    <string name="categories_bottom_bar_news">Новости</string>
+    <string name="categories_bottom_bar_search">Поиск</string>
+    <string name="categories_bottom_bar_heart">Помочь</string>
+    <string name="categories_bottom_bar_history">История</string>
+    <string name="categories_bottom_bar_profile">Профиль</string>
+    <string name="red_circle">red_circle</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="by_events">По мероприятиям</string>
+    <string name="by_nko">По НКО</string>
+    <string name="photo">photo</string>
+    <string name="galochka">galochka</string>
+    <string name="error_get_auth_token">Ошибка авторизации</string>
+    <string name="resourses_unavailable">Ошибка. Ресурсы приложения недоступны</string>
+    <string name="action_edit">Редактировать</string>
+    <string name="edit_profile_activity_label">Редактировать</string>
+    <string name="action_save">Сохранить</string>
+</resources>

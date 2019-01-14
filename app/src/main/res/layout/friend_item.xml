@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center_horizontal"
+    android:layout_marginLeft="@dimen/card_layout_margin"
+    android:layout_marginTop="@dimen/card_layout_margin"
+    android:layout_marginRight="@dimen/card_layout_margin"
+    android:layout_marginBottom="@dimen/card_layout_margin"
+    android:background="@null"
+    android:orientation="horizontal">
+
+    <ImageView xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/photoIv"
+        android:layout_width="@dimen/friend_pic_size"
+        android:layout_height="@dimen/friend_pic_size"
+        android:layout_marginLeft="@dimen/pic_layout_margin_horizontal"
+        android:layout_marginTop="@dimen/pic_layout_margin_top"
+        android:layout_marginRight="@dimen/pic_layout_margin_horizontal"
+        android:layout_marginBottom="@dimen/pic_layout_margin_bottom"
+        android:adjustViewBounds="true"
+        android:contentDescription="@string/category_image"
+        android:scaleType="center"
+        tools:src="@drawable/ic_launcher_background" />
+
+    <TextView
+        android:id="@+id/nameTv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:fontFamily="sans-serif"
+        android:textStyle="normal"
+        android:textColor="@color/black__87"
+        android:layout_gravity="center"
+        android:gravity="center_horizontal"
+        tools:text="Имя друга" />
+</LinearLayout>

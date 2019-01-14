@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimaryDark">#497627</color>
+    <color name="colorCardBackground">#eaede8</color>
+    <color name="ColorCategoryText">#9ebf50</color>
+    <color name="colorCategoriesHeadText">#de000000</color>
+    <color name="colorCategoriesBottomBarText">#7db354</color>
+    <color name="ColorProfileText">#de000000</color>
+    <color name="ColorProfileEditPhotoShadow">#b5000000</color>
+    <color name="colorEventBackground">#e8eded</color>
+    <color name="colorEventDate">#7db354</color>
+
+    <color name="leaf">#66a636</color>
+    <color name="black_40">#66000000</color>
+    <color name="black__38">#61000000</color>
+    <color name="black__70">#b3000000</color>
+    <color name="black__87">#de000000</color>
+    <color name="colorProfileDevider">#aabbbb</color>
+</resources>

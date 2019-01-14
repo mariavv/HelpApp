@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    tools:context=".ui.navigate.NavigateActivity">
+
+    <include
+        layout="@layout/main_menu_tabs_containier"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/main_bottom_bar_red_circle_margin_bottom"
+        android:elevation="1dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent">
+
+        <ImageView
+            android:id="@+id/categoriesIv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/red_circle"
+            android:src="@drawable/red_circle" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:contentDescription="@string/red_circle"
+            android:src="@drawable/heart" />
+    </FrameLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/main_bottom_bar_height"
+        android:background="@android:color/white"
+        android:baselineAligned="false"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent">
+
+        <TextView
+            android:layout_width="@dimen/weight_dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:drawableTop="@drawable/news"
+            android:fontFamily="sans-serif"
+            android:gravity="center_horizontal"
+            android:text="@string/categories_bottom_bar_news"
+            android:textColor="@color/colorCategoriesBottomBarText"
+            android:textSize="@dimen/main_bottom_bar_text_size"
+            android:textStyle="normal" />
+
+        <TextView
+            android:id="@+id/searchTv"
+            android:layout_width="@dimen/weight_dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:clickable="true"
+            android:drawableTop="@drawable/searh"
+            android:focusable="true"
+            android:fontFamily="sans-serif"
+            android:gravity="center_horizontal"
+            android:text="@string/categories_bottom_bar_search"
+            android:textColor="@color/black_40"
+            android:textSize="@dimen/main_bottom_bar_text_size"
+            android:textStyle="normal" />
+
+        <LinearLayout
+            android:layout_width="@dimen/weight_dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="bottom"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="@dimen/weight_dp"
+                android:layout_height="0dp"
+                android:layout_weight="1" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif"
+                android:gravity="center_horizontal"
+                android:text="@string/categories_bottom_bar_heart"
+                android:textColor="@color/black_40"
+                android:textSize="@dimen/main_bottom_bar_text_size"
+                android:textStyle="normal" />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="@dimen/weight_dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:drawableTop="@drawable/history_2"
+            android:fontFamily="sans-serif"
+            android:gravity="center_horizontal"
+            android:text="@string/categories_bottom_bar_history"
+            android:textColor="@color/black_40"
+            android:textSize="@dimen/main_bottom_bar_text_size"
+            android:textStyle="normal" />
+
+        <TextView
+            android:id="@+id/profileTv"
+            android:layout_width="@dimen/weight_dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:clickable="true"
+            android:drawableTop="@drawable/history"
+            android:focusable="true"
+            android:fontFamily="sans-serif"
+            android:gravity="center_horizontal"
+            android:text="@string/categories_bottom_bar_profile"
+            android:textColor="@color/black_40"
+            android:textSize="@dimen/main_bottom_bar_text_size"
+            android:textStyle="normal" />
+
+    </LinearLayout>
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        android:layout_width="@dimen/progressBar_size"
+        android:layout_height="@dimen/progressBar_size"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="@dimen/progressBar_marginTop"
+        android:elevation="5dp"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        tools:visibility="visible" />
+
+</android.support.constraint.ConstraintLayout>
